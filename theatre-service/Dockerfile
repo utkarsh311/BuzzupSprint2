@@ -1,7 +1,7 @@
 FROM java:8-jre
 
-COPY ./target/theatre-service-1.1.0-SNAPSHOT.jar /usr/app/src/theatre-service-1.1.0-SNAPSHOT.jar
+COPY ./target/theatre-service-0.0.1-SNAPSHOT.jar /usr/app/src/theatre-service-0.0.1-SNAPSHOT.jar
 
 WORKDIR /usr/app/src
 
-ENTRYPOINT ["java","-jar", "theatre-service-1.1.0-SNAPSHOT.jar"]
+ENTRYPOINT ["java","-jar", "theatre-service-0.0.1-SNAPSHOT.jar"]
