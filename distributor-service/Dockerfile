@@ -4,4 +4,4 @@ COPY ./target/Distributor-service-0.0.1-SNAPSHOT.jar /usr/app/src/Distributor-se
 
 WORKDIR /usr/app/src
 
-ENTRYPOINT ["java","-jar", "Disstributor-service-1.1.0-SNAPSHOT.jar"]
+ENTRYPOINT ["java","-jar", "Disstributor-service-0.0.1-SNAPSHOT.jar"]
