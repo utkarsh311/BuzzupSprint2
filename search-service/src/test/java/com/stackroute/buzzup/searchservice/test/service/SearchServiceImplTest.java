@@ -42,8 +42,7 @@ public class SearchServiceImplTest {
     @Before
     public void setUp() throws Exception {
 
-        //MockitoAnnotations.initMocks(this);
-
+        
         Movie movie = new Movie();
         movie.setId("2");
         movie.setMovieName("incidious");
@@ -70,7 +69,7 @@ public class SearchServiceImplTest {
          assertEquals(theatre, citySaved);
 
      }
-   @Test(expected=Exception.class)
+    @Test(expected=Exception.class)
     public void getMovieByTitleTest() throws Exception {
      
     	when(movierepository.findByMovieName(movie.getMovieName())).thenReturn(movie);
