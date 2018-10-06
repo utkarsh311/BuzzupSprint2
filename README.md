@@ -2,4 +2,4 @@
 
 CircleCI:
 
-[![CircleCI](https://circleci.com/gh/gaurav714/ibm-w2-buzzup-server.svg?style=svg)](https://circleci.com/gh/gaurav714/ibm-w2-buzzup-server)
+[![CircleCI](https://circleci.com/gh/utkarsh311/BuzzupSprint2.svg?style=svg)](https://circleci.com/gh/utkarsh311/BuzzupSprint2)
