@@ -122,6 +122,7 @@ services:
   authentication-service:
    build: authentication-service/
    image: authentication-service
+   restart: always
    network_mode: "host"
    hostname: localhost
    ports:
