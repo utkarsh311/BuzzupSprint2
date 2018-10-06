@@ -60,16 +60,6 @@ public class SearchServiceImplTest {
     }
 
      @Test(expected=Exception.class)
-     public void saveCitySuccess() throws Exception {
-         
-    	 when(cityrepository.save(any())).thenReturn(city);
-        
-         String citySaved = searchServiceImpl.saveCity(city);
-         
-         assertEquals(theatre, citySaved);
-
-     }
-    @Test(expected=Exception.class)
     public void getMovieByTitleTest() throws Exception {
      
     	when(movierepository.findByMovieName(movie.getMovieName())).thenReturn(movie);
